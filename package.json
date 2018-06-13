@@ -1,0 +1,24 @@
+{
+  "name": "current",
+  "version": "1.0.0",
+  "description": "current test",
+  "main": "index.html",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cyiunever",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corayiu/just_testing_things_out.git"
+  },
+  "bugs": {
+    "url": "https://github.com/corayiu/just_testing_things_out/issues"
+  },
+  "homepage": "https://github.com/corayiu/just_testing_things_out#readme"
+}
