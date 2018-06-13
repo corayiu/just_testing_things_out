@@ -31,7 +31,7 @@
 
 .overlay {
     position: fixed;
-    background-image: radial-gradient( blue 30%, #ff6512 90%);
+    background-image: radial-gradient(circle, blue 30%, #ff6512 90%);
     top: 0;
     left: 0;
     width: 100%;
