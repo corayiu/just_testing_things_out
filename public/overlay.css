@@ -40,7 +40,7 @@
 }
 
 .overlay {
-    position: absolute;
+    position: absolute !important;
     background-image: radial-gradient(circle, blue 30%, #ff6512 90%);
     top: 0;
     left: 0;
@@ -368,7 +368,7 @@
 }
 
 .overlay {
-    position: fixed;
+    position: absolute;
     background-image: radial-gradient(circle, blue 30%, #ff6512 90%);
     top: 0;
     left: 0;
