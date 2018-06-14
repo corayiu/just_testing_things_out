@@ -340,7 +340,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 0;
+    height: ;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .35s, visibility .35s, height .35s;
@@ -348,7 +348,7 @@
 .nav-active {
     opacity: 1;
     visibility: visible;
-    height: 100%;
+    height: 100vh;
 /*    max-height: 340px;*/
 }
 
