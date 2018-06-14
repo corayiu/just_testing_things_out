@@ -21,7 +21,7 @@
     border: none;
     color: white;
     padding: 5px 15px;
-    text-align: center;
+    text-align: left;
     font-size: 200%;
     font-family: 'Bagnard', Georgia, serif;
     letter-spacing: 2px;
@@ -334,13 +334,27 @@
 /*-----MOBILE-----*/
 @media screen and (max-width: 667px) {
 
+.button {
+       background-color: transparent;
+       outline: none;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: left;
+    font-size: 100%;
+    font-family: 'Bagnard', Georgia, serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
 .overlay {
     position: fixed;
     background-image: radial-gradient(circle, blue 30%, #ff6512 90%);
     top: 0;
     left: 0;
     width: 100%;
-    height: 0;
+    height: 100%;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .35s, visibility .35s, height .35s;
