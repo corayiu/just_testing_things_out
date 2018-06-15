@@ -18,9 +18,9 @@ body {
   margin: 0;
 }
 
-/*header {
+header {
   z-index: 9999;
-}*/
+}
 
 canvas {
   display: block;
