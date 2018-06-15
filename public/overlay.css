@@ -3,7 +3,7 @@
     src: url(fonts/Bagnard.otf);
 }
 
-.navbar-header {
+header {
     z-index: 9999;
 }
 

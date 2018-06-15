@@ -27,6 +27,7 @@ canvas {
 }
 
 .grid {
+  z-index: -1;
   display: grid;
   color: #fff;
   font-family: 'ATCDuel',arial, sans-serif;
@@ -51,7 +52,6 @@ color: #fff;
 .nav 
 {
   grid-area: nav;
-  z-index: 9999;
 }
 
 
