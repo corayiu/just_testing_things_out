@@ -3,7 +3,7 @@
     src: url(fonts/Bagnard.otf);
 }
 
-header {
+.navbar-header {
     z-index: 9999;
 }
 
@@ -402,6 +402,7 @@ header {
     padding: 0;
     letter-spacing: 2px;
     line-height: 1.7;
+    height:100%;
 }
 .overlay ul li {
     display: block;
