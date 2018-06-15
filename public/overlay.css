@@ -3,6 +3,10 @@
     src: url(fonts/Bagnard.otf);
 }
 
+.navbar-header {
+    z-index: 9999;
+}
+
 .toggle-button {
     position: fixed;
     top: 8px;
