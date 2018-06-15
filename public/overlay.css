@@ -3,9 +3,6 @@
     src: url(fonts/Bagnard.otf);
 }
 
-.navbar-header {
-    z-index: 9999;
-}
 
 .toggle-button {
     position: fixed;
@@ -44,7 +41,7 @@
 }
 
 .overlay {
-    position: absolute !important;
+    position: fixed;
     background-image: radial-gradient(circle, blue 30%, #ff6512 90%);
     top: 0;
     left: 0;
@@ -372,7 +369,7 @@
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     background-image: radial-gradient(circle, blue 30%, #ff6512 90%);
     top: 0;
     left: 0;
@@ -402,7 +399,6 @@
     padding: 0;
     letter-spacing: 2px;
     line-height: 1.7;
-    height:100%;
 }
 .overlay ul li {
     display: block;
