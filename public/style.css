@@ -294,19 +294,21 @@ color: #fff;
 
 .aboutinfo {
     font-family:Bagnard, Georgia, serif; 
-    font-size:0.9vw;
+    font-size:1vw;
     padding: 20px 100px;
     width:70%;
     margin: 3% auto;
+    font-weight: bold;
 }
 
 .bio {
   font-family:Bagnard, Georgia, serif; 
-    font-size: 0.9vw;
+    font-size: 1vw;
     padding: 20px 100px;
     width:70%;
     line-height: 1.5;
     margin: auto;
+    font-weight: bold;
 }
 
 .row {
