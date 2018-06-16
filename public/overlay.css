@@ -121,6 +121,7 @@
     padding: 0 10%;
     line-height: 1.5;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 
@@ -444,6 +445,7 @@
   .land {
     float: center;
     font-family: Bagnard, Georgia, serif;
+    color: #fff;
     font-size: 70%;
     display: inline-block;
     position: absolute;

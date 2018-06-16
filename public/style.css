@@ -1,5 +1,13 @@
 body {
-  background-color: #000;
+  /*background-color: #000;*/
+ background: url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=57&opacity=26")
+
+
+}
+
+::selection {
+    color: black; 
+    background: #ff6512;
 }
 
 @font-face {
@@ -40,17 +48,27 @@ canvas {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
   grid-template-areas:
-  "nav nav"
+  "title nav"
   "content content3"
   "content2 content2"
 }
 
+.grid2 {
+  display: grid;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+  "title title"
+  "content content"
+  "content2 content2"
+  "content3 content3"
+}
+
 .title {
-text-align:left;
-letter-spacing: 2px;
-margin-left: 20px;
-text-decoration: none;
-color: #fff;
+  grid-area: title;
   }
 
 .nav 
@@ -62,12 +80,12 @@ color: #fff;
 .content {
   grid-area: content;
   font-family: 'ATCDuel', arial, sans-serif;
+  font-size:7vh;
   letter-spacing: 2px;
   text-align:left;
   width:70%;
-  font-size:7vh;
-  font-weight:bold;
-  padding: 0 50px;
+/*  font-weight:bold;*/
+  padding: 0 0px;
 
 }
 
@@ -96,6 +114,13 @@ h1 {
   text-align: center;
   padding: 20px;
 }
+
+/*.about {
+  font-family: 'Bagnard', Georgia, serif;
+  font-size:100%;
+  text-align: center;
+  padding: 20px;
+}*/
 
 .marquee {
   overflow: hidden;
@@ -212,20 +237,100 @@ h1 {
 }
 
 #instructions {
-  display:block !important;
-  font-size:100% !important;
-  font-family: Bagnard, Georgia, serif !important;
-  border-style: double !important;
-  box-shadow:5px 8px !important;
-  padding: 7px 10px !important;
-  margin-top:100px !important;
-  margin-left:10px !important;
-  width:50% !important;
-  line-height: 1.5 !important;
+  display:block;
+  font-size:100%;
+  font-family: Bagnard, Georgia, serif;
+  border-style: double;
+  box-shadow:5px 8px;
+  padding: 7px 10px;
+  margin-top:100px;
+  margin-left:20px;
+  width:50%;
+  line-height: 1.5;
+  text-align:left;
+letter-spacing: 2px;
+margin-left: 40px;
+text-decoration: none;
+color: #fff;
 }
 
 .mesh {
   padding-left:93px;
+}
+
+/*ABOUT*/
+
+.pagetitle {
+  font-family: 'ATCDuel', arial, sans-serif;
+  text-align:center;
+  font-size:4vw;
+  margin-top:3%;
+  padding: 20px 20px;
+  text-shadow: 10px -7px #0000ff;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-family: 'ATCDuel', arial, sans-serif;
+  font-size:1.5vw;
+  color: blue;
+  text-align:left;
+}
+.mission {
+  font-family:'Bagnard', Georgia, serif; 
+  font-size:1.5vw; 
+  color: #000;
+  text-align: left;
+  padding: 20px 100px;
+  line-height: 1.3;
+  border-style: double;
+  box-shadow:5px 8px #fff;
+  width:70%;
+  background-color:white;
+  margin: auto;
+  margin-top:3%;
+
+}
+
+.aboutinfo {
+    font-family:Bagnard, Georgia, serif; 
+    font-size:0.9vw;
+    padding: 20px 100px;
+    width:70%;
+    margin: 3% auto;
+}
+
+.bio {
+  font-family:Bagnard, Georgia, serif; 
+    font-size: 0.9vw;
+    padding: 20px 100px;
+    width:70%;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.row {
+   -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+}
+}
+
+/*.column {
+    float: left;
+    width: 50%;
+}
+
+ Clear floats after the columns 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
 }
 
 /*-----LG----- */
@@ -244,6 +349,7 @@ h1 {
   top:45%;
   font-size:150%;
 }
+
 }
 
 /*-----MD----- */
