@@ -398,13 +398,18 @@ font-size:0.8vw}
     column-gap: 40px;
 }
 
+.logos {
+ text-align: center;
+ margin-top:2%;
+}
+
 
 .logoimg {
   width: 100%;
     max-width: 400px;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    margin-right:1%;
 }
 }
 
