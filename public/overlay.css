@@ -23,7 +23,7 @@
     padding: 9px 10px;
     margin: 8px 15px 8px 0;
     z-index: 3;
-    font-size:100%;
+    font-size:200%;
 }
 
 .button {
@@ -226,7 +226,7 @@
   .overlay ul li a:before {
     position: absolute;
     transform: translateX(-100%);
-    left: -10px;
+    left: -10px;i
     color: #fff;
 /*    opacity: .3;*/
     font-weight: 200;
