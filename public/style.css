@@ -445,6 +445,7 @@ color: #fff;
   bottom: 40px;
   width:100%;
   font-size:100%;
+  z-index: -1;
 }
 
 .marquee-bottom {
@@ -453,10 +454,11 @@ color: #fff;
   bottom: 0;
   width:100%;
   font-size:100%;
+   z-index: -1;
 }
 
 
-.circle { position: relative; width: 100%; overflow: hidden; }
+.circle { position: relative; width: 100%; overflow: hidden; font-size:130%;}
 
 .circle text { font-family: 'Bagnard', Georgia, serif; font-size: 100%; font-weight: bold; letter-spacing: 2px;}
 
@@ -610,6 +612,7 @@ color: #000;
   bottom: 40px;
   width:100%;
   font-size:70%;
+   z-index: -1;
 }
 
 .marquee-bottom {
@@ -618,13 +621,14 @@ color: #000;
   bottom: 0;
   width:100%;
   font-size:70%;
+   z-index: -1;
 }
 
 
 
 
 
-.circle { position: relative; width: 100%; overflow: hidden; }
+.circle { position: relative; width: 100%; overflow: hidden; font-size:100%; }
 
 .circle text { font-family: 'Bagnard', Georgia, serif; font-size: 90%; font-weight: bold; letter-spacing: 2px;}
 
