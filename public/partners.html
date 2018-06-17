@@ -39,12 +39,12 @@
 
 <div class="grid2">
     <div class="title"><!-- <div class="pagetitle outline" style="margin-top:3%;">ARTISTS</div> --></div>
-    <div class="content" style="width:100%"><div class="pagetitle outline" style="margin-top:5%;">PARTNERS & FRIENDS</div><div class="bio row2"><p><span class="producers">CHAPEL SOUND</span> is a multidisciplinary electronic art & music collective formed in 2012. Chapel Sound's mandate is to push creative expression forward without artistic boundaries or prejudice. Chapel Sound is devoted to offering platforms (online and through working with local venues) for local emerging artists to experiment in the field of multidisciplinary electronic art and music regardless of a person’s race, class, gender or orientation. Bringing people together through events, workshops, collaborations and cross-pollination with other local crews has plays an important role for Chapel Sound in realizing this ambition.
+    <div class="content" style="width:100%"><div class="pagetitle outline" style="margin-top:5%;">FRIENDS OF CURRENT</div><div class="bio row2"><p><span class="producers">CHAPEL SOUND</span> is a multidisciplinary electronic art & music collective formed in 2012. Chapel Sound's mandate is to push creative expression forward without artistic boundaries or prejudice. Chapel Sound is devoted to offering platforms (online and through working with local venues) for local emerging artists to experiment in the field of multidisciplinary electronic art and music regardless of a person’s race, class, gender or orientation. Bringing people together through events, workshops, collaborations and cross-pollination with other local crews has plays an important role for Chapel Sound in realizing this ambition.
 </p><br>
 <p><span class="producers">CONTRAST COLLECTIVE</span> is a Vancouver based collective focusing on the growth and expression of people of colour.</p><br>
 
 <p><span class="producers">ELASTIC COLLECTIVE</span> is an arts collective & event production team run for and by the youth community in & around Vancouver.</p><br>
-<p><span class="producers">Emily Carr University of Art + Design - New Media + Sound Arts Program</span> New Media + Sound Arts (NMSA) is a new program at Emily Carr University of Art + Design that explores relationships between technology and sound, visuals, time-based media, and electronic systems, offering ways to artistically engage with technologies through critical and generative lenses that move beyond the prescriptive systems of today’s technocultures. In NMSA, we create new musical instruments, multimedia installations, live audiovisual performances, music production, interactive objects and wearables, new sonic ecologies, electronic textiles, and interactive sculptures. NMSA emphasizes processes of working with electronic technologies and cultivates interest in how these new tools continually shape, and are shaped by, cultures.
+<p><span class="producers" style="text-transform:uppercase;">Emily Carr University of Art + Design - New Media + Sound Arts Program</span> New Media + Sound Arts (NMSA) is a new program at Emily Carr University of Art + Design that explores relationships between technology and sound, visuals, time-based media, and electronic systems, offering ways to artistically engage with technologies through critical and generative lenses that move beyond the prescriptive systems of today’s technocultures. In NMSA, we create new musical instruments, multimedia installations, live audiovisual performances, music production, interactive objects and wearables, new sonic ecologies, electronic textiles, and interactive sculptures. NMSA emphasizes processes of working with electronic technologies and cultivates interest in how these new tools continually shape, and are shaped by, cultures.
 </p><br>
 <p><span class="producers">FIELD CONTEMPORARY GALLERY</span> Founded in 2013 by Daniel Jefferies, Brandon Cotter, and Avalon Mott, FIELD was conceived as a space to promote critical artistic thinking and understanding. FIELD is a place where local contemporary artists are able to correspond with international artists. Committed to furthering Vancouver’s visual cultural identity, FIELD wishes to lend the opportunity for success to emerging artists and curators..
 </p><br>
@@ -68,10 +68,9 @@
 </p><br>
 </div>
 </div>
-    <div class="content2"">
+    <div class="content2""><div class="pagetitle outline" style="margin-top:5%;">FUNDERS & SPONSORS</div>
 </div>
     <div class="content3"></div>
-<div class="content4"><div class="pagetitle outline">PRESS</div><div class="press">Georgia Straight<br>CITR</div></div>
 <div class='marquee-bottom' style="color:#000;background-color:#fff;padding: 7px 0;"><span class="lnr lnr-calendar-full"></span>
     July 25 — 29, 2018 <span class="lnr lnr-hourglass"></span> MORE INFO COMING SOON <!-- <span style="font-family:Wingdings">&#74;</span> --><span class="lnr lnr-smile"></span> <a href="https://goo.gl/forms/RXgp586unM43G9ZD2" class="volunteer" style="color:blue;text-decoration: none;" target="_blank">VOLUNTEER NOW</a> <span class="lnr lnr-envelope"></span> <a href="mailto:currentsymposium@gmail.com" style="color:blue;text-decoration: none;">CONTACT US</a></span>
 </div>
@@ -82,7 +81,16 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js'></script>
 <script  src="js/marquee2.js"></script>
+ <script>
+        $(function () {    
+    $('a').on('click touchend', function() { 
+        var link = $(this).attr('href');   
+        window.open(link,'_self'); // opens in new window as requested 
 
+        return false; // prevent anchor click    
+    });    
+});
+</script>
         <script> 
             $("button").on("click", function() {
   var el = $(this);

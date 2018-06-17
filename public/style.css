@@ -38,6 +38,9 @@ canvas {
   z-index: -9999;
 }
 
+
+
+
 .grid {
   z-index: -2;
   display: grid;
@@ -88,7 +91,7 @@ canvas {
   width:70%;
 /*  font-weight:bold;*/
   padding: 0 0px;
-  z-index: -2;
+  z-index: 0;
 
 }
 
@@ -101,7 +104,7 @@ canvas {
   background: transparent;
 overflow: hidden;
 width:100%;
-z-index: -2;
+z-index: 0;
 }
 
 
@@ -109,14 +112,14 @@ z-index: -2;
   grid-area:content3;
   font-family: Bagnard, Georgia, serif;
   margin:0%;
-  z-index: -2;
+  z-index: 0;
 }
 
 .content4 {
   grid-area:content4;
   font-family: Bagnard, Georgia, serif;
   margin:0%;
-  z-index: -2;
+  z-index: 0;
 }
 
 h1 {
@@ -229,7 +232,7 @@ h1 {
   bottom: 65px;
   width:100%;
   font-size:200%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .marquee-bottom {
@@ -239,7 +242,7 @@ h1 {
   width:100%;
   font-size:200%;
   font-family: 'ATCDuel', arial, sans-serif;
-   z-index: -1;
+   z-index: 1;
 }
 
 .instructions {
@@ -339,6 +342,17 @@ color: #fff;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom:10%;
+}
+
+
+.press a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.press a:hover {
+  transform: skew(-10deg);
 }
 
 .row {
