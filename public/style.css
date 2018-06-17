@@ -387,6 +387,14 @@ font-size:0.8vw}
     column-gap: 40px;
 }
 
+
+.logoimg {
+  width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 }
 
 /*.column {
