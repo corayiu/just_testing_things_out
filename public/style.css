@@ -660,24 +660,24 @@ color: #000;
 }
 .mission {
   font-family:'Bagnard', Georgia, serif; 
-  font-size:1.5vw; 
+  font-size:3.5vw; 
   color: #000;
   text-align: left;
   padding: 20px 10px;
   line-height: 1.3;
   border-style: double;
   box-shadow:5px 8px #fff;
-  width:80%;
+  width:60%;
   background-color:white;
   margin: auto;
-  margin-top:10%;
+  margin-top:30%;
   overflow:hidden;
 
 }
 
 .aboutinfo {
     font-family:Bagnard, Georgia, serif; 
-    font-size:1vh;
+    font-size:3vw;
     padding: 20px 0px;
     width:70%;
     margin: 3% auto;
@@ -686,7 +686,7 @@ color: #000;
 
 .bio {
   font-family:Bagnard, Georgia, serif; 
-    font-size: 1vh;
+    font-size: 2vh;
     padding: 20px 0px;
     width:70%;
     line-height: 1;
