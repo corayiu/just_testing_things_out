@@ -663,7 +663,7 @@ color: #000;
   line-height: 1.5;
   border-style: double;
   box-shadow:5px 8px #fff;
-  width:65%;
+  width:70%;
   background-color:white;
   margin: auto;
   margin-top:30%;
@@ -681,7 +681,7 @@ color: #000;
     font-weight: bold;
     line-height: 1.5;
     text-align: left;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
 }
 
 .bio {
@@ -693,14 +693,14 @@ color: #000;
     margin: auto;
     font-weight: bold;
     margin-bottom: 15%;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
   }
 
 .producers {
   font-family:ATCDuel, arial, serif; 
   color:blue;
   font-size:4vw;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
 }
 
 .row {
