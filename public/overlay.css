@@ -387,6 +387,7 @@
 
 .overlay {
     position: fixed;
+    z-index: 7;
     background-image: linear-gradient(blue 30%, #ff6512 90%);
     top: 0;
     left: 0;
