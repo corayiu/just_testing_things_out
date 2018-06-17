@@ -122,21 +122,6 @@ h1 {
   padding: 20px;
 }*/
 
-.marquee {
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width:100%;
-  font-size:100%;
-}
-
-.marquee2 {
-  overflow: hidden;
-  position: fixed;
-  bottom: 69px;
-  width:100%;
-  font-size:100%;
-}
 
 .circle { position: relative; width: 100%; overflow: hidden; }
 
@@ -230,6 +215,7 @@ h1 {
   bottom: 0;
   width:100%;
   font-size:200%;
+  font-family: 'ATCDuel', arial, sans-serif;
 }
 
 .instructions {
@@ -287,7 +273,7 @@ color: #fff;
   width:70%;
   background-color:white;
   margin: auto;
-  margin-top:3%;
+  margin-top:7%;
 
 }
 
@@ -298,6 +284,7 @@ color: #fff;
     width:70%;
     margin: 3% auto;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .bio {
@@ -308,6 +295,14 @@ color: #fff;
     line-height: 1.5;
     margin: auto;
     font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom:10%;
+}
+
+.producers {
+  font-family:ATCDuel, arial, serif; 
+  color:blue;
+  font-size:1.2vw
 }
 
 .row {
@@ -646,7 +641,7 @@ color: #000;
 .pagetitle {
   font-family: 'ATCDuel', arial, sans-serif;
   text-align:center;
-  font-size:4vw;
+  font-size:6vw;
   padding: 20px 20px;
   text-shadow: 10px -7px #0000ff;
   letter-spacing: 2px;
@@ -654,7 +649,7 @@ color: #000;
 
 .subtitle {
   font-family: 'ATCDuel', arial, sans-serif;
-  font-size:1.5vw;
+  font-size:4vw;
   color: blue;
   text-align:left;
 }
@@ -693,6 +688,12 @@ color: #000;
     line-height: 1.5;
     margin: auto;
     font-weight: bold;
+}
+
+.producers {
+  font-family:ATCDuel, arial, serif; 
+  color:blue;
+  font-size:4vw
 }
 
 .row {
