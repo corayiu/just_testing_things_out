@@ -361,6 +361,7 @@
     font-family: 'Bagnard', Georgia, serif;
     letter-spacing: 2px;
     cursor: pointer;
+    z-index: 7;
 
 }
 
