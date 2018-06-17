@@ -355,6 +355,18 @@ color: #fff;
   transform: skew(-10deg);
 }
 
+.bio a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.bio a:hover {
+  transform: skew(-10deg);
+}
+.panel{
+font-size:0.8vw}
+
 .row {
    -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
@@ -760,6 +772,7 @@ color: #000;
     margin: auto;
     font-weight: bold;
     letter-spacing: 1px;
+    text-align: left;
   }
 
 .producers {
@@ -780,7 +793,10 @@ color: #000;
     letter-spacing: 2px;
     margin-bottom:15%;
 }
-
+.panel {
+  font-size:3vw;
+  line-height:1.2;
+}
 .row  {
    -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
