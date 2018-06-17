@@ -522,8 +522,9 @@ color: #000;
 
 .content {
   font-size:4vh;
-  padding: 0 30px;
+  padding: 0 0px;
   text-align:left;
+  overflow: hidden;
 }
 
 .content2 {
@@ -669,14 +670,15 @@ color: #000;
   width:100%;
   background-color:white;
   margin: auto;
-  margin-top:3%;
+  margin-top:10%;
+  overflow:hidden;
 
 }
 
 .aboutinfo {
     font-family:Bagnard, Georgia, serif; 
     font-size:1vh;
-    padding: 20px 100px;
+    padding: 20px 0px;
     width:70%;
     margin: 3% auto;
     font-weight: bold;
@@ -685,7 +687,7 @@ color: #000;
 .bio {
   font-family:Bagnard, Georgia, serif; 
     font-size: 1vh;
-    padding: 20px 100px;
+    padding: 20px 0px;
     width:70%;
     line-height: 1;
     margin: auto;
