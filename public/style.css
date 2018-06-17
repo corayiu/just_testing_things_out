@@ -652,6 +652,7 @@ color: #000;
   font-size:4vw;
   color: blue;
   text-align:left;
+  letter-spacing: 1.5px;
 }
 .mission {
   font-family:'Bagnard', Georgia, serif; 
@@ -667,6 +668,7 @@ color: #000;
   margin: auto;
   margin-top:30%;
   overflow:hidden;
+  letter-spacing: 1.5px;
 
 }
 
@@ -679,6 +681,7 @@ color: #000;
     font-weight: bold;
     line-height: 1.5;
     text-align: left;
+    letter-spacing: 1.5px;
 }
 
 .bio {
@@ -690,12 +693,14 @@ color: #000;
     margin: auto;
     font-weight: bold;
     margin-bottom: 15%;
+    letter-spacing: 1.5px;
   }
 
 .producers {
   font-family:ATCDuel, arial, serif; 
   color:blue;
-  font-size:4vw
+  font-size:4vw;
+  letter-spacing: 1.5px;
 }
 
 .row {
