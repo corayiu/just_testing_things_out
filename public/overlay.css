@@ -413,7 +413,7 @@
     top: 100px;
     left: 0;
     font-family: 'Bagnard', Georgia, serif;
-    font-size: 100%;
+    /*font-size: 100%;*/
     font-weight: 400;
     text-align: center;
     list-style: none;
@@ -462,7 +462,7 @@
     float: center;
     font-family: Bagnard, Georgia, serif;
     color: #fff;
-    font-size: 1vh;
+    font-size: 2.6vw;
     display: inline-block;
     position: absolute;
     bottom:35px;
