@@ -853,4 +853,17 @@ color: #000;
     column-gap: 50px;
 }
 
+.logos {
+ text-align: center;
+ margin-top:2%;
+}
+
+
+.logoimg {
+  width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    margin-bottom:1%;
+}
 
