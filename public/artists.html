@@ -87,7 +87,7 @@
     <div class="title"><!-- <div class="pagetitle outline" style="margin-top:3%;">ARTISTS</div> --></div>
     <div class="content" style="width:100%"><div class="toptitle outline">ARTISTS</div><div class="bio row2">
     <div class="mouseOver_text">
-    <h1><a href="http://www.alannaho.ca/" class="artistname">Alanna Ho</a><br><span class="artistbio">[panelist]</span></h1>
+    <h1><a href="http://www.alannaho.ca/" class="artistname" target="_blank">Alanna Ho</a><br><span class="artistbio">[panelist]</span></h1>
     <h1><span class="artistname">Caroline Park<br></span><span class="artistbio">[panelist]</span></h1>
     <h1><span class="artistname">Cease Wyss<br></span><span class="artistbio">[panelist]</span></h1>
     <h1><span class="artistname">Chandra Melting Tallow<br></span><span class="artistbio">[filmmaker]</span></h1>
@@ -187,15 +187,15 @@ function previewImages() {
 </script>
  <script>
         $(function () {    
-    $('a').on('click touchend', function() { 
+    $('a.volunteer').on('click touchend', function() { 
         var link = $(this).attr('href');   
-        window.open(link,'_self'); // opens in new window as requested 
+        window.open(link,'_blank'); // opens in new window as requested 
 
         return false; // prevent anchor click    
     });    
 });
 </script>
-        <script> 
+        <!-- <script> 
             $("button").on("click", function() {
   var el = $(this);
   if (el.text() == el.data("text-swap")) {
@@ -206,7 +206,7 @@ function previewImages() {
   }
 });
 </script>
-
+ -->
 
 </body>
 

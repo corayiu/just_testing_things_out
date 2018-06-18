@@ -1,5 +1,5 @@
 $(function() {
-	$('#toggle').click(function() {
+$('#toggle').on('click touchend', function() {
 	    $(this).toggleClass('toggle-active');
 	    $('#overlay').toggleClass('nav-active');
     });
