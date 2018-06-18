@@ -862,6 +862,16 @@ color: #000;
     letter-spacing: 1px;
 }
 
+.invitation { font-family:Bagnard, Georgia, serif; 
+    font-size: 3vw;
+    padding: 20px 0px;
+    width:85%;
+    line-height: 1.2;
+    margin: auto;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top:5%;}
+
 .bio {
   font-family:Bagnard, Georgia, serif; 
     font-size: 4vw;
@@ -954,7 +964,7 @@ color: #000;
 }
 
 #accordion {
-  margin-top:10%;
+  margin-top:7%;
   margin-bottom: 10%;
 }
 
