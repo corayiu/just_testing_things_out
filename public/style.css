@@ -130,6 +130,54 @@ h1 {
   margin-bottom: 7%;
 }
 
+h3{
+  font-family:Bagnard, Georgia, serif;
+  font-size:1.2vw;
+  letter-spacing: 3px;
+  line-height: 1;
+  outline:none;
+  padding: 20px 30px 15px 30px;
+  color:#000;
+  background-color:#fff;
+  border: 1px solid #000;
+  border: double;
+}
+
+/*p {
+  padding: 5px 30px;
+  background-color:#fff;
+}*/
+
+.accordion {
+  text-decoration: underline;
+  color: #000;
+  display: inline-block;
+}
+
+
+
+.accordioncontent {
+  color: #000;
+}
+
+/*.programdate {
+  font-family:'Bagnard', Georgia, serif; 
+  font-size:1.5vw; 
+  color: #fff;
+  text-align: left;
+  padding: 15px 30px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+
+}*/
+
+#accordion {
+font-size:1vw;
+line-height: 1.5;
+margin-top:3%;
+margin-bottom:10%;
+}
+
 .artistbio {
   font-size:0.8vw;
 
@@ -297,7 +345,7 @@ color: #fff;
   padding: 10px 20px;
   text-shadow: 10px -7px #0000ff;
   letter-spacing: 2px;
-  margin-top:5%;
+  margin-top:3%;
 }
 
 .subtitle {
@@ -340,7 +388,7 @@ color: #fff;
     line-height: 1.5;
     margin: auto;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     margin-top:2%;
 }
 
@@ -359,7 +407,7 @@ color: #fff;
     line-height: 1.5;
     margin: auto;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     margin-bottom:10%;
 }
 
@@ -418,20 +466,28 @@ font-size:0.8vw}
     display: inline-block;
     margin-right:1%;
 }
+
+}
+/*
+.producercontainer {
+    margin: 20px 20px 0 0; 
+    overflow: auto
+    width:100%;
+    height: auto;
 }
 
-/*.column {
-    float: left;
-    width: 50%;
+.producerimg {
+  margin-left:2%;
+float:left; 
+height:20%;
+width:20%; 
 }
 
- Clear floats after the columns 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.producerbio {
+ margin-left: 10px;
+}
+
 }*/
-}
 
 /*-----LG----- */
 @media screen and (max-width: 1700px) {
@@ -756,7 +812,7 @@ color: #000;
   padding: 0px 20px;
   text-shadow: 8px -5px #0000ff;
   letter-spacing: 2px;
-  margin-top:30%;
+  margin-top:25%;
 }
 
 .pagetitle {
@@ -834,7 +890,7 @@ color: #000;
     line-height: 1.5;
     margin: auto;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     margin-bottom:15%;
 }
 .panel {
@@ -885,15 +941,35 @@ color: #000;
 }
 
 .screenshot {
-  font-size:6vw;
+  font-size:5vw;
 }
 
 .artistname {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .artistbio {
-  font-size:2vw;
+  font-size:3.5vw;
 
 }
 
+#accordion {
+  margin-top:10%;
+}
+
+h3{
+  font-family:Bagnard, Georgia, serif;
+  font-size:3vw;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  outline:none;
+  padding: 20px 30px 15px 30px;
+  color:#000;
+  background-color:#fff;
+  border: 1px solid #000;
+  border: double;
+}
+
+p {
+  font-size:2vw;
+}
