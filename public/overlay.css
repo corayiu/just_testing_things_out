@@ -33,10 +33,11 @@
     border: double;
     border-radius: 0px;
     color: #000;
-    padding: 13px 15px 7px 15px;
+    padding: 7px 15px;
     text-align: left;
-    font-size: 200%;
-    font-family: 'Bagnard', Georgia, serif;
+    font-size: 150%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
     letter-spacing: 2px;
      cursor: pointer;
      z-index: 4;
@@ -69,8 +70,9 @@
     position: relative;
     top: 100px;
     left: 0;
-    font-family: 'Bagnard', Georgia, serif;
-    font-size: 300%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
+    font-size: 8vh;
     font-weight: 400;
     text-align: center;
     list-style: none;
@@ -137,8 +139,9 @@
     position: relative;
     top: 100px;
     left: 0;
-    font-family: 'Bagnard', Georgia, serif;
-    font-size: 300%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
+    font-size: 6vh;
     font-weight: 400;
     text-align: center;
     list-style: none;
@@ -192,8 +195,9 @@
     position: relative;
     top: 100px;
     left: 0;
-    font-family: 'Bagnard', Georgia, serif;
-    font-size: 250%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
+    font-size: 6vh;
     font-weight: 400;
     text-align: center;
     list-style: none;
@@ -248,8 +252,9 @@
     position: relative;
     top: 100px;
     left: 0;
-    font-family: 'Bagnard', Georgia, serif;
-    font-size: 200%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
+    font-size: 5vh;
     font-weight: 400;
     text-align: center;
     list-style: none;
@@ -303,8 +308,9 @@
     position: relative;
     top: 100px;
     left: 0;
-    font-family: 'Bagnard', Georgia, serif;
-    font-size: 150%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
+    font-size: 4vh;
     font-weight: 400;
     text-align: center;
     list-style: none;
@@ -370,10 +376,11 @@
        outline: none;
     border: double;
     color: #000;
-    padding: 10px 10px 5px 10px;
+    padding: 5px 10px;
     text-align: left;
-    font-size: 120%;
-    font-family: 'Bagnard', Georgia, serif;
+    font-size: 90%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
     letter-spacing: 2px;
     cursor: pointer;
     z-index: 8;
@@ -416,8 +423,9 @@
     position: relative;
     top: 18%;
     left: 0;
-    font-family: 'Bagnard', Georgia, serif;
-    font-size: 6vw;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
+    font-size: 3vh;
     font-weight: 400;
     text-align: center;
     list-style: none;
@@ -477,4 +485,35 @@
     width:90%;
     margin: 0 auto;
 }
+}
+
+/*-----MOBILE-----*/
+@media screen and (max-width: 375px) {
+
+
+.toggle-button {
+    position: fixed;
+    top: 8px;
+    left: 15px;
+    padding: 9px 10px;
+    margin: 8px 15px 8px 0;
+    height: 20px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 16;
+}
+.button {
+       background-color: #fff;
+       outline: none;
+    border: double;
+    color: #000;
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 90%;
+    font-family: 'ATCDuel', arial, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    z-index: 16;
+
 }
