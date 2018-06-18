@@ -3,6 +3,10 @@
     src: url(fonts/Bagnard.otf);
 }
 
+@font-face {
+    font-family: ATCDuel;
+    src: url(fonts/ATCDuel.otf);
+}
 
 .toggle-button {
     position: fixed;
