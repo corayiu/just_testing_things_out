@@ -1,7 +1,8 @@
-$('#toggle').click(function() {
+
+$(function() {
 	$('#toggle').click(function() {
-        $(this).toggleClass('toggle-active');
-        $('#overlay').toggleClass('nav-active');
+    $(this).toggleClass('toggle-active');
+    $('#overlay').toggleClass('nav-active');
 
      $("button").on("click", function() {
   var el = $(this);
@@ -13,5 +14,3 @@ $('#toggle').click(function() {
   }
 });
 });
-
-	
