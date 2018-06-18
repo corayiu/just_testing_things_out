@@ -954,12 +954,13 @@ color: #000;
 }
 
 #accordion {
-  margin-top:15%;
+  margin-top:10%;
+  margin-bottom: 10%;
 }
 
 h3{
   font-family:Bagnard, Georgia, serif;
-  font-size:3.5vw;
+  font-size:4vw;
   letter-spacing: 1.5px;
   line-height: 1.5;
   outline:none;
@@ -971,5 +972,5 @@ h3{
 }
 
 p {
-  font-size:2.5vw;
+  font-size:3vw;
 }
