@@ -814,7 +814,8 @@ color: #000;
 }
 
 .title {
-  display: none;
+  display: block;
+  padding-bottom: 10%;
 }
 
 #instructions {
