@@ -123,10 +123,16 @@ z-index: 0;
 }
 
 h1 {
-  font-family: 'ATCDuel', arial, sans-serif;
-  font-size:100%;
-  text-align: center;
-  padding: 20px;
+  font-family:Bagnard, Georgia, serif;
+  font-size:1.2vw;
+  letter-spacing: 3px;
+  line-height: 1;
+  margin-bottom: 7%;
+}
+
+.artistbio {
+  font-size:0.8vw;
+
 }
 
 /*.about {
