@@ -410,6 +410,9 @@ color: #fff;
     text-align: center;
 }
 
+.location {
+  margin-bottom:10%;
+}
 .producers {
   font-family:ATCDuel, arial, serif; 
   color:#fff;
@@ -483,6 +486,15 @@ font-size:0.8vw}
     height: auto;
     display: inline-block;
     margin-right:1%;
+}
+
+.filminfo {
+  font-size:0.8vw;
+  line-height: 1;
+}
+.map {
+  overflow: hidden;
+  width:100%;
 }
 
 }
@@ -657,6 +669,19 @@ width:20%;
   text-align: left;
   top:50%;
 }
+
+.invitation { font-family:Bagnard, Georgia, serif; 
+    font-size: 3.5vw;
+    padding: 20px 0px;
+    width:85%;
+    line-height: 1.2;
+    margin: auto;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top:5%;
+  text-align:center;
+  font-style:italic;
+}
 }
 
 /*-----MOBILE-----*/
@@ -684,7 +709,6 @@ overflow-x: hidden;
 .title {
 grid-area: title;
 font-size:7vw;
-padding: 15px;
 font-weight: bold;
 letter-spacing: 2px;
 text-align:center;
@@ -815,7 +839,7 @@ color: #000;
 
 .title {
   display: block;
-  padding-bottom: 10%;
+ /* padding-bottom: 10%;*/
 }
 
 #instructions {
@@ -891,7 +915,8 @@ color: #000;
     text-align: left;
     margin-top:5%;
   text-align:center;
-  font-style:italic;}
+  font-style:italic;
+}
 
 .bio {
   font-family:Bagnard, Georgia, serif; 
@@ -1009,4 +1034,14 @@ h3{
 
 p {
   font-size:3vw;
+}
+
+.filminfo {
+  font-size:2.5vw;
+  line-height: 1;
+}
+
+.map {
+  overflow: hidden;
+  width:100%;
 }
