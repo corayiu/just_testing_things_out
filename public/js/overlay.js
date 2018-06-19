@@ -1,5 +1,7 @@
 $(function() {
-$('#toggle').on('click touchend', function() {
+$('#toggle').on('click touchend', function(event) {
+		  event.stopPropagation();
+		  event.preventDefault();		
 	    $(this).toggleClass('toggle-active');
 	    $('#overlay').toggleClass('nav-active');
     });
