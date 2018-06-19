@@ -914,7 +914,7 @@ color: #000;
     letter-spacing: 1px;
     text-align: left;
     margin-top:5%;
-  text-align:center;
+  text-align:left;
   font-style:italic;
 }
 
@@ -948,6 +948,7 @@ color: #000;
     font-weight: bold;
     letter-spacing: 1.5px;
     margin-bottom:15%;
+    
 }
 .panel {
   font-size:3vw;
