@@ -860,7 +860,7 @@ color: #000;
 
 .pagetitle {
   font-family: 'ATCDuel', arial, sans-serif;
-  text-align:center;
+  text-align:left;
   font-size:7vw;
   padding: 0px 20px;
   text-shadow: 8px -5px #0000ff;
@@ -948,7 +948,7 @@ color: #000;
     font-weight: bold;
     letter-spacing: 1.5px;
     margin-bottom:15%;
-    
+
 }
 .panel {
   font-size:3vw;
