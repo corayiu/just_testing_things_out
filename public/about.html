@@ -30,7 +30,7 @@
     <li><a href="about.html">About</a></li>
     <li><a href="artists.html">Artists</a></li>
     <li><a href="program.html">Program</a></li>
-    <li><a href="location.html">Locations</a></li>
+    <li><a href="location.html">Location</a></li>
     <li><a href="partners.html">Partners</a></li>
     <li><a href="archive.html">Archive</a></li>
     <li><a href="https://goo.gl/forms/RXgp586unM43G9ZD2">Get Involved</a></li>
@@ -47,9 +47,9 @@
     <div class="content3"><div class="pagetitle outline">PRODUCERS</div><div class="bio"><p>
         <div class="producercontainer">
             <!-- <div><img src="images/ashlee.jpg" class="producerimg"></div> -->
-<div class="producerbio"><p><span class="producers">ALEXANDRA CHEN</span> is driven to work towards moving Vancouver's electronic scene towards the forefront of sound while creating safer spaces where marginalized folks can lose themselves in music, where the dance floor is a space of freedom, self-expression, and where dividing lines are blurred. Whether booking international headliners or selecting local acts, she aims to amplify the voices of people underrepresented in the music industry. She is currently an active member of New Forms Media Art Society’s board. </p><br>
+<div class="producerbio"><p><span class="producers">ALEXANDRA CHEN</span> is driven to work towards moving Vancouver's electronic scene towards the forefront of sound while creating safer spaces where marginalized folks can lose themselves in music, where the dance floor is a space of freedom, self-expression, and where dividing lines are blurred. Whether booking international headliners or selecting local acts, she aims to amplify the voices of people underrepresented in the music industry. She is currently an active member of New Forms Media Society’s board. </p><br>
 <p><span class="producers">ASH LUK</span> is a musician, curator and graphic artist. They make up part of electronic duo Minimal Violence and punk trio Lié. Luk has been working as an event curator in the city for over five years both as a founder of queer techno initiative Bodyheat and as part of Sacred Sound Club collective. Luk is drawn towards electronic music because of its ability to bridge the intersections of culture. Electronic music is focused around community gathering and embodies the shift away from the ego and towards collective experience. It is because of this that they believe in music as a dominant force in restructuring the cultural narrative. </p><br></div></div>
-<p><span class="producers">NANCY LEE</span> is a curator, filmmaker, and new media interdisciplinary artist. She is an event director with the critically acclaimed art collective Chapel Sound. She has received numerous art grants from BC Arts Council and Canada Council for the Arts. Last spring, Nancy organized Chapel Sound Festival with over 50 local artists performing and leading events, workshops and panels. The festival has been credited with addressing “issues surrounding gender parity in the industry." She is a 2018 YWCA Women of Distinction Award nominee in Art, Culture & Design.</p><br>
+<p><span class="producers">NANCY LEE</span> is a curator, filmmaker, researcher and new media interdisciplinary artist. She is an event director with the critically acclaimed electronic art collective Chapel Sound. She has been awarded numerous art grants from BC Arts Council, Canada Council for the Arts, City of Vancouver and CreativeBC and has presented at Cannes Film Festival, MUTEK, SXSW and Bass Coast to name a few. She is a 2018 YWCA Women of Distinction Award nominee in Art, Culture & Design and named by BC Business one of BC’s most influential women in STEM.</p><br>
 <p><span class="producers">SOLEDAD FATIMA MUÑOZ</span> is an interdisciplinary artist born in Toronto, Canada and raised in Rancagua, Chile. Her work explores the analogy between the ever-changing social spaces we inhabit, and an embodied experience of sound. She is the founder of Genero, an audio project which focuses in the greater representation for women and non-binary people working in the sound realm. Soledad was the recipient of The City of Vancouver Mayor’s Arts Award for Emerging Artist in Craft and Design.</p><br>
 <p><div class="pagetitle outline">2018 STAFF</div><br><span style="color:white;">Operations manager</span> — Bradley William Leaf<br>
 <span style="color:white;">Policy facilitator</span> — Iva Jankovic<br>
@@ -71,23 +71,12 @@
 <script  src="js/marquee2.js"></script>
  <script>
         $(function () {    
-    $('a').on('click touchend', function() { 
+    $('a.volunteer').on('click touchend', function() { 
         var link = $(this).attr('href');   
         window.open(link,'_self'); // opens in new window as requested 
 
         return false; // prevent anchor click    
     });    
-});
-</script>
-        <script> 
-            $("button").on("click", function() {
-  var el = $(this);
-  if (el.text() == el.data("text-swap")) {
-    el.text(el.data("text-original"));
-  } else {
-    el.data("text-original", el.text());
-    el.text(el.data("text-swap"));
-  }
 });
 </script>
 

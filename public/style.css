@@ -175,7 +175,7 @@ h3{
 font-size:1vw;
 line-height: 1.5;
 margin-top:1%;
-margin-bottom:10%;
+margin-bottom:7%;
 }
 
 .artistbio {
@@ -466,9 +466,9 @@ font-size:0.8vw}
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
 }
 
 .logos {
@@ -826,9 +826,9 @@ color: #000;
 
 .toptitle {
    font-family: 'ATCDuel', arial, sans-serif;
-  text-align:center;
+  text-align:left;
   font-size:7vw;
-  padding: 0px 20px;
+  padding: 0px 30px;
   text-shadow: 8px -5px #0000ff;
   letter-spacing: 2px;
   margin-top:28%;
@@ -863,7 +863,7 @@ color: #000;
   width:70%;
   background-color:white;
   margin: auto;
-  margin-top:30%;
+  margin-top:25%;
   overflow:hidden;
   letter-spacing: 1.5px;
 

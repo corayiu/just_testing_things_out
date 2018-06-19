@@ -29,7 +29,7 @@
       <li><a href="about.html">About</a></li>
     <li><a href="artists.html">Artists</a></li>
     <li><a href="program.html">Program</a></li>
-    <li><a href="location.html">Locations</a></li>
+    <li><a href="location.html">Location</a></li>
     <li><a href="partners.html">Partners</a></li>
     <li><a href="archive.html">Archive</a></li>
     <li><a href="https://goo.gl/forms/RXgp586unM43G9ZD2">Get Involved</a></li>
@@ -80,7 +80,7 @@ Live electronic music gear demonstration,Intersessions DJ Workshop,Introduction 
 <script  src="js/marquee2.js"></script>
  <script>
         $(function () {    
-    $('a').on('click touchend', function() { 
+    $('a.volunteer').on('click touchend', function() { 
         var link = $(this).attr('href');   
         window.open(link,'_self'); // opens in new window as requested 
 
@@ -88,17 +88,8 @@ Live electronic music gear demonstration,Intersessions DJ Workshop,Introduction 
     });    
 });
 </script>
-        <script> 
-            $("button").on("click", function() {
-  var el = $(this);
-  if (el.text() == el.data("text-swap")) {
-    el.text(el.data("text-original"));
-  } else {
-    el.data("text-original", el.text());
-    el.text(el.data("text-swap"));
-  }
-});
-</script>
+
+   
 
 
 </body>
