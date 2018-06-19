@@ -94,8 +94,8 @@
                 <a href="https://www.facebook.com/currentsymposium/" target="_blank"><i class="fa fa-facebook-square" style="color:#000;margin-left:10px"></i></a>
             </div>
   <ul>
-    <li><a href="public/about.html">About</a></li>
-    <li><a href="public/artists.html">Artists</a></li>
+    <li><a href="public/about.html" class="navlink">About</a></li>
+    <li><a href="public/artists.html" class="navlink">Artists</a></li>
     <li><a href="public/program.html">Program</a></li>
     <li><a href="public/location.html">Locations</a></li>
     <li><a href="public/partners.html">Partners</a></li>
@@ -311,6 +311,13 @@
 
         return false; // prevent anchor click    
     });    
+
+    $('a.navlink').on('click touchend', function() { 
+        var link = $(this).attr('href');   
+        window.open(link,'_self'); // opens in new window as requested 
+
+        return false; // prevent anchor click    
+    }); 
 });
 </script>
         <!-- <script> 
