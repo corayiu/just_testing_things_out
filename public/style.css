@@ -354,6 +354,16 @@ color: #fff;
   margin-top:3%;
 }
 
+.stafftitle {
+  font-family: 'ATCDuel', arial, sans-serif;
+  text-align:center;
+  font-size:4vw;
+  padding: 10px 20px;
+  text-shadow: 10px -7px #0000ff;
+  letter-spacing: 2px;
+  margin-top:3%;
+}
+
 .subtitle {
   font-family: 'ATCDuel', arial, sans-serif;
   font-size:1.5vw;
@@ -868,7 +878,7 @@ color: #000;
   margin-top:5%;
 }
 
-.pagetitle2 {
+.stafftitle {
   font-family: 'ATCDuel', arial, sans-serif;
   text-align:center;
   font-size:6.9vw;
