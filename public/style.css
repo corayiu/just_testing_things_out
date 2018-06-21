@@ -895,7 +895,7 @@ color: #000;
 
 .aboutinfo {
     font-family:Bagnard, Georgia, serif; 
-    font-size:4vw;
+    font-size:3.5vw;
     padding: 20px 0px;
     width:80%;
     margin: 3% auto;
@@ -940,7 +940,7 @@ color: #000;
 
 .press {
   font-family:Bagnard, Georgia, serif; 
-    font-size: 6vw;
+    font-size: 3.5vw;
     padding: 20px 0px;
     width:70%;
     line-height: 1.5;
@@ -1034,11 +1034,11 @@ h3{
 }
 
 p {
-  font-size:4vw;
+  font-size:3.5vw;
 }
 
 .filminfo {
-  font-size:2.5vw;
+  font-size:3vw;
   line-height: 1;
 }
 
