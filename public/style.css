@@ -141,6 +141,7 @@ h3{
   background-color:#fff;
   border: 1px solid #000;
   border: double;
+  cursor: pointer;
 }
 
 /*p {
