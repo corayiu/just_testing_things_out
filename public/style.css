@@ -508,6 +508,13 @@ font-size:0.8vw}
   width:100%;
 }
 
+img {
+    float: left;
+    width:15%;
+    height:15%;
+    margin-right:25px;
+}
+
 }
 /*
 .producercontainer {
@@ -1076,4 +1083,10 @@ p {
 .map {
   overflow: hidden;
   width:100%;
+}
+
+img {
+     margin-left: auto;
+            margin-right: auto;
+            width: 70%;
 }
