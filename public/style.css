@@ -594,8 +594,8 @@ width:20%;
 }
 
 
-/*-----TABLET----- */
-@media screen and (max-width: 1023px) {
+/*-----XS----- */
+@media screen and (max-width: 1024px) {
 
 
 .marquee-top {
@@ -686,7 +686,7 @@ width:20%;
 }
 
 .invitation { font-family:Bagnard, Georgia, serif; 
-    font-size: 3.5vw;
+    font-size: 1.9vw;
     padding: 20px 0px;
     width:85%;
     line-height: 1.2;
@@ -697,8 +697,127 @@ width:20%;
   text-align:center;
   font-style:italic;
 }
+
+.mission {
+  font-family:'Bagnard', Georgia, serif; 
+  font-size:1.5vw; 
+  color: #000;
+  text-align: left;
+  padding: 20px 20px;
+  line-height: 1.5;
+  border-style: double;
+  box-shadow:5px 8px #fff;
+  width:80%;
+  background-color:white;
+  margin: auto;
+  margin-top:15%;
+  overflow:hidden;
+  letter-spacing: 1.5px;
+
+}
 }
 
+
+
+/*-----TABLET----- */
+@media screen and (max-width: 768px) {
+
+h3{
+  font-family:Bagnard, Georgia, serif;
+  font-size:1.7vw;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  outline:none;
+  padding: 15px 20px 15px 20px;
+  color:#000;
+  background-color:#fff;
+  border: 1px solid #000;
+  border: double;
+}
+
+p {
+  font-size:1.5vw;
+  letter-spacing: 0px;
+}
+
+.invitation { font-family:Bagnard, Georgia, serif; 
+    font-size: 1.6vw;
+    padding: 20px 0px;
+    width:85%;
+    line-height: 1.2;
+    margin: auto;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top:5%;
+  font-style:italic;
+}
+
+.bio {
+  font-family:Bagnard, Georgia, serif; 
+    font-size: 1.7vw;
+    padding: 20px 0px;
+    width:80%;
+    line-height: 1.5;
+    margin: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top:5%;
+  }
+
+  .aboutinfo {
+    font-family:Bagnard, Georgia, serif; 
+    font-size:1.7vw;
+    padding: 20px 0px;
+    width:80%;
+    margin: 3% auto;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.press {
+  font-family:Bagnard, Georgia, serif; 
+    font-size: 1.7vw;
+    padding: 20px 0px;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom:15%;
+    width:80%;
+}
+.mission {
+  font-family:'Bagnard', Georgia, serif; 
+  font-size:2vw; 
+  color: #000;
+  text-align: left;
+  padding: 20px 30px;
+  line-height: 1.5;
+  border-style: double;
+  box-shadow:5px 8px #fff;
+  width:80%;
+  background-color:white;
+  margin: auto;
+  margin-top:15%;
+  overflow:hidden;
+  letter-spacing: 1.5px;
+
+}
+.panel {
+  font-size:1.1vw;
+  line-height:0;
+}
+.toptitle {
+   font-family: 'ATCDuel', arial, sans-serif;
+  text-align:center;
+  font-size:4vw;
+  padding: 0px 30px;
+  text-shadow: 8px -5px #0000ff;
+  letter-spacing: 2px;
+  margin-top:15%;
+}
+}
 /*-----MOBILE-----*/
 @media screen and (max-width: 667px)
 {
